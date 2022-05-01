@@ -1,0 +1,77 @@
+.section-about {
+    width: 100%;
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+}
+
+.section-about .about-info .container-img {
+    width: 50%;
+    position: relative;
+    left: 130px;
+}
+
+.section-about .about-info .container-img img {
+    width: 40%;
+    user-select: none;
+}
+
+.section-about .about-info .container-informacion {
+    position: absolute;
+    width: 40%;
+    top: 980px;
+    right: 80px;
+}
+
+.section-about .about-info .container-informacion h1 {
+    color: #000;
+    font-size: 2.7rem;
+    padding-bottom: 1rem;
+    user-select: none;
+}
+
+.section-about .about-info .container-informacion p {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    line-height: 40px;
+    padding-bottom: 1rem;
+}
+
+.section-about .about-info .container-informacion .container-list .lista-serv {
+    margin-bottom: 2rem;
+}
+
+.section-about .about-info .container-informacion .container-list .lista-serv li {
+    padding: 15px;
+}
+
+.section-about .about-info .container-informacion .container-list .lista-serv li i {
+    color: var(--color-main);
+    position: absolute;
+    left: -10px;
+    padding-top: 3px;
+    padding-right: 10px;
+    font-size: 1.1rem;
+}
+
+.section-about .about-info .container-informacion .container-list .lista-serv li h3 {
+    color: var(--text-color);
+}
+
+.section-about .about-info .container-informacion .container-link a {
+    color: var(--color-main);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: -10px;
+    transition: .4s;
+}
+
+.section-about .about-info .container-informacion .container-link a:hover {
+    opacity: 0.8;
+    transition: .4s;
+}
+
+.section-about .about-info .container-informacion .container-link a i {
+    position: relative;
+    top: 4px;
+    left: 12px;
+}

@@ -1,0 +1,79 @@
+.section-FAQS {
+    width: 100%;
+    margin-top: 18rem;
+    margin-bottom: 4rem;
+}
+
+.section-FAQS .container-FAQS {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.section-FAQS .container-title h1 {
+    color: #000;
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+    user-select: none;
+}
+
+.section-FAQS .container-FAQS .container-questions .container-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.section-FAQS .container-FAQS .container-questions .container-items .item {
+    margin: 20px 20px;
+    background-color: var(--color-main-light);
+    height: 80px;
+    transition: .4s ease-in-out;
+}
+
+.section-FAQS .container-FAQS .container-questions .container-items .item:hover {
+    box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, .15);
+}
+
+.section-FAQS .container-FAQS .container-questions .container-items .item.show {
+    height: 200px;
+    background-color: var(--color-main);
+    transition: .4s ease-in-out;
+}
+
+.section-FAQS .container-FAQS .container-questions .container-items div.item h3 {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    padding-bottom: 1rem;
+    padding-left: 50px;
+    user-select: none;
+    color: #000;
+}
+
+.section-FAQS .container-FAQS .container-questions .container-items div.item h3.change {
+    color: #fff;
+}
+
+.section-FAQS .container-FAQS .container-questions .container-items div.item p {
+    padding: 20px 50px;
+    width: 100%;
+    color: #fff;
+    display: none;
+}
+
+.section-FAQS .container-FAQS .container-questions .container-items div.item p.appear {
+    display: block;
+}
+
+.section-FAQS .container-FAQS .container-questions .container-items div.item i {
+    position: relative;
+    top: 28px;
+    font-size: 1.5rem;
+    left: 20px;
+    cursor: pointer;
+    transition: .4s;
+    transform: rotate(0deg);
+}
+
+.section-FAQS .container-FAQS .container-questions .container-items div.item i.rotate {
+    transform: rotate(90deg);
+}
